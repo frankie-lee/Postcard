@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     //code will evaluate when we press the button.
     @IBOutlet weak var mailButton: UIButton!
     
+    //New comment to test version control
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         messageLabel.hidden=false
         messageLabel.text=enterAMessageTextField.text
